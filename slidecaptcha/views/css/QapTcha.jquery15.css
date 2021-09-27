@@ -1,0 +1,75 @@
+/*****************/
+
+
+/** QapTcha CSS **/
+
+
+/*****************/
+
+.QapTcha {
+    margin-top: 20px;
+    width: 280px;
+    padding-left: 33%
+}
+
+.QapTcha .clr {
+    clear: both
+}
+
+.QapTcha .bgSlider {
+    width: 240px;
+    height: 39px;
+    border: 1px solid #bbb;
+    background-color: #ccc;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    float: left;
+}
+
+.QapTcha .Slider {
+    width: 65px;
+    height: 37px;
+    background: transparent url('../img/bg_draggable_qaptcha.jpg') no-repeat;
+    cursor: e-resize;
+    position: relative;
+    top: 0;
+    left: 0;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px
+}
+
+.QapTcha .TxtStatus {
+    width: 252px;
+    margin-top: 7px;
+    text-align: left;
+    color: #bb2828;
+    font-family: Verdana;
+    font-size: 14px;
+    clear: both
+}
+
+.QapTcha .dropSuccess {
+    color: #4e8b37
+}
+
+.QapTcha .dropError {
+    color: #bb2828
+}
+
+.QapTcha .Iconscap_on {
+    width: 39px;
+    width: 39px;
+    background: transparent url('../img/lock.png') no-repeat 0 0;
+    float: right;
+    margin-top: -5px;
+}
+
+.QapTcha .Iconscap_off {
+    width: 39px;
+    height: 39px;
+    background: transparent url('../img/unlock.png') no-repeat 0 0;
+    float: right;
+    margin-top: -5px;
+}

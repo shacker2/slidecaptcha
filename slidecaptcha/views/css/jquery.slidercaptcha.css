@@ -1,0 +1,95 @@
+﻿.sliderCaptchaContainer {
+    width: 270px;  
+    height: 115px; 
+    margin:0 auto;
+    border-width: 1px;
+    border-color: #e4e3e3;
+    border-style: solid;
+    position: relative;
+    background: #ffffff;
+    padding:5px;
+    overflow:hidden;
+}
+
+.sliderCaptchaHeader {
+    background: url('../img/header.gif') no-repeat center center;
+    width: 200px;
+    height: 35px;    
+}
+
+.sliderCaptchaSlider { }
+.sliderCaptchaSlider .ui-slider-handle { 
+	/* remove default jQuery ui css class */
+	margin:0;
+	padding:0;
+	background:none;
+	border:0;
+	/* override default jQuery ui css class */
+	position: absolute;
+    margin-top:-5px;
+    margin-left:-4px;  
+    background: url('../img/slider.png') no-repeat center center;
+    width: 11px; 
+	height: 22px; 
+	cursor:pointer;	
+}
+
+.sliderCaptchaSlider .ui-slider-handle:hover {
+    background: url('../img/sliderHover.png') no-repeat center center;
+}
+
+.ui-slider-horizontal { 
+	height: 4px; 
+	width: 89%;  
+	background: #f0ede0;
+    border-bottom:1px solid #edebe4;
+    border-left:1px solid #b3b6b4;
+    border-top:1px solid #b3b6b4;
+    border-right:1px solid #b3b6b4;
+    margin:15px auto;
+    position:relative;
+}
+
+.sliderCaptchaImages {
+    width: 98%;  
+}
+
+.sliderCaptchaStatus {
+    width: 55%; 
+    text-align:center;
+    margin:0 auto;
+    line-height:35px;
+    font-family:Verdana;
+    font-size:12px;
+}
+
+.sliderCaptchaLockedImage {
+    background: url('../img/lockEnable.png') no-repeat center center;
+    width: 65px; 
+	height: 45px;
+	float:left;  
+}
+
+.sliderCaptchaUnlockedImage {
+    background: url('../img/unlockEnable.png') no-repeat center center;
+    width: 65px; 
+	height: 45px; 
+	float:right;  
+}
+
+.sliderCaptchaLockedImageDisable {
+    background: url('../img/lockDisable.png') no-repeat center center;
+    width: 65px; 
+	height: 45px;
+	float:left;  
+}
+
+.sliderCaptchaUnlockedImageDisable {
+    background: url('../img/unlockDisable.png') no-repeat center center;
+    width: 65px; 
+	height: 45px; 
+	float:right;  
+}
+
+.sliderCaptchaPlaceHolder {}
+

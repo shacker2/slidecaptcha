@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>slidecaptcha</name>
+	<displayName><![CDATA[SlideCaptcha]]></displayName>
+	<version><![CDATA[3.0.0]]></version>
+	<description><![CDATA[Block forms if the slide is not active - www.catalogo-onlinersi.net]]></description>
+	<author><![CDATA[RSI]]></author>
+	<tab><![CDATA[front_office_features]]></tab>
+	<is_configurable>1</is_configurable>
+	<need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+</module>

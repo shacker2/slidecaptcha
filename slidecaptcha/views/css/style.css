@@ -1,0 +1,21 @@
+
+#short_description_blockm{
+background: #E5E6E7;
+border: solid 1px #D0D3D8;
+margin-bottom: 1.5em;
+padding: 0.7em;
+margin-top: 1.5em;
+text-align:center;
+}
+#sold{
+	background-image:url(icon.png);
+	background-repeat:no-repeat;
+	width:64px;
+	height:37px;
+	text-align:center;
+	padding-top:27px;margin:0 auto;
+	color:#000
+}
+#sold span{
+	color:#fff
+}
